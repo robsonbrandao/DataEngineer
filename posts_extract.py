@@ -1,3 +1,4 @@
+# Carrega as bibliotecas necessárias
 
 import os
 import requests
