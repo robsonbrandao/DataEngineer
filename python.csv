@@ -1,0 +1,427 @@
+id,subreddit,kind,title,score,selftext,sentimento
+t3_1iqf81z,Python,t3,Sunday Daily Thread: What's everyone working on this week?,9,"# Weekly Thread: What's Everyone Working On This Week? 🛠️
+
+Hello /r/Python! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!
+
+## How it Works:
+
+1. **Show &amp; Tell**: Share your current projects, completed works, or future ideas.
+2. **Discuss**: Get feedback, find collaborators, or just chat about your project.
+3. **Inspire**: Your project might inspire someone else, just as you might get inspired here.
+
+## Guidelines:
+
+* Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.
+* Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.
+
+## Example Shares:
+
+1. **Machine Learning Model**: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!
+2. **Web Scraping**: Built a script to scrape and analyze news articles. It's helped me understand media bias better.
+3. **Automation**: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!
+
+Let's build and grow together! Share your journey and learn from others. Happy coding! 🌟",Positivo
+t3_1iv5pd3,Python,t3,Saturday Daily Thread: Resource Request and Sharing! Daily Thread,2,"# Weekly Thread: Resource Request and Sharing 📚
+
+Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!
+
+## How it Works:
+
+1. **Request**: Can't find a resource on a particular topic? Ask here!
+2. **Share**: Found something useful? Share it with the community.
+3. **Review**: Give or get opinions on Python resources you've used.
+
+## Guidelines:
+
+* Please include the type of resource (e.g., book, video, article) and the topic.
+* Always be respectful when reviewing someone else's shared resource.
+
+## Example Shares:
+
+1. **Book**: [""Fluent Python""](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008) \- Great for understanding Pythonic idioms.
+2. **Video**: [Python Data Structures](https://www.youtube.com/watch?v=pkYVOmU3MgA) \- Excellent overview of Python's built-in data structures.
+3. **Article**: [Understanding Python Decorators](https://realpython.com/primer-on-python-decorators/) \- A deep dive into decorators.
+
+## Example Requests:
+
+1. **Looking for**: Video tutorials on web scraping with Python.
+2. **Need**: Book recommendations for Python machine learning.
+
+Share the knowledge, enrich the community. Happy learning! 🌟",Positivo
+t3_1iuyt0y,Python,t3,New to coding. Is it always this difficult?,373,"I’m transitioning from bartending to data analysis at 37yo through an online course called CareerFoundry and I think I’ve made a huge mistake. I do not feel prepared to enter the job market with my new skills. For example It has taken me 6 full hours today just trying to START a project in VSCode and I don’t understand any of the troubleshooting I’m doing. (I don’t remember learning about virtual environments during the course) we did the whole course in Jupyter and now I find out vscode is the standard and it’s an entirely different platform I can’t figure out. I feel like every step forward is 100 steps back. 
+
+Could anyone share their “aha!” Moment with coding? I could really use the encouragement. Or have I made a huge mistake and this just isn’t for me? Thanks for reading this far!! Any advice is appreciated. ",Negativo
+t3_1ivclq9,Python,t3,Tinyprogress 1.0.1 released,34,"# What My Project Does:
+
+It is a lightweight console progress bar that weighs only 1.21KB.
+
+# What Problem Does It Solve?
+
+It aims to reduce the dependency size in certain programs.
+
+# Comparison with Other Available Modules for This Function:
+
+* **progress** \- 8.4KB
+* **progressbar** \- 21.88KB
+* **tinyprogress** \- 1.21KB
+
+# GitHub and PyPI:
+
+Check out the project on GitHub for full documentation:  
+[https://github.com/croketillo/tinyprogress](https://github.com/croketillo/tinyprogress)
+
+Available on PyPI:  
+[https://pypi.org/project/tinyprogress/](https://pypi.org/project/tinyprogress/)
+
+# Target Audience:
+
+Python developers looking for lightweight dependencies.",Neutro
+t3_1ivt2df,Python,t3,"Livedocs – a modern, real-time collaborative Python notebook. Improving ergonomics for Python",1,"Hi everyone, we (me and two other Python/Rust/Typescript devs) just built a collaborative Python notebook. We built it from the ground up, but are still using Jupyter at the core, but stripped away everything else that slows it down. Livedocs lives in your browser, and lets you experiment in a notebook and share your work as an app.
+
+Our plan is to make it the fastest, most ergonomic Python notebook around. A few things we’ve shipped:
+
+* Added lots of new cell types like charts, SQL (powered by DuckDB), tables, inputs, database saves, and even interacting with LLMs directly via a cell
+* Notebook is internally represented as a DAG, for reactivity 
+* Re-built most internals with rust
+* Added support for user-supplied secrets, built-in vars
+
+We’re looking to improve the Python editing experience by connecting the editor to an LSP and adding AI generation to help produce code. 
+
+We’re looking for feedback on the notebook from Pythonistas on the ergonomics of the notebook. We want to keep the experience as close to a local development environment as possible. ",Positivo
+t3_1iurnjd,Python,t3,Follow the yearly PyCon if you want to get better at using Python,269,"One very under-appreciated advice I'm often giving to people starting with Python (or wanting to dive much deeper) is to follow the annual Python Conference (PyCon) and watch a few talks. 
+
+By far not all of them are relevant for most people. Some thing go very deep in how the language works intrinsically, or marginal optimizations for machine-learning stacks, but by and large it's really one of the best ways to keep up with the language and the community.
+
+  
+Just search ""PyCon 20xx"" (e.g 2024) on Youtube and you'll find most/all of them there.
+
+  
+For example, one talk I absolutely love from the PyCon 2018 (yes, 2018!) is a talk by Hillel Wayne on testing better: [https://www.youtube.com/watch?v=MYucYon2-lk](https://www.youtube.com/watch?v=MYucYon2-lk)
+
+Some things get old, deprecated, some things are just making you a better dev.",Positivo
+t3_1ivdslk,Python,t3,Pixerise v0.12 Released: Introducing Ray Casting and Improved Rendering Features,6,"The release v0.12 is out!
+
+Pixerise is a high-performance 3D software renderer implemented in Python. Designed for educational purposes and systems without GPU access, Pixerise provides a complete CPU-based rendering pipeline optimized with NumPy and Numba JIT compilation:
+
+[https://github.com/enricostara/pixerise](https://github.com/enricostara/pixerise)
+
+This version introduces some major improvements and new features:
+
+**New Features:** 
+
+✨ **Ray Casting** \- Precise 3D object selection with mouse interaction
+
+🎨 **Group Colors** \- Assign and manage colors for model groups
+
+👁️ **Visibility Toggles** \- Right-click to show/hide model groups
+
+**Performance:** 
+
+⚡ 1/z depth interpolation for more accurate triangle rasterization
+
+🎯 Optimized ray casting with bounding sphere culling
+
+**Developer Experience:** 
+
+🧹 Implemented Ruff for code formatting
+
+📚 Improved documentation with architecture diagrams and API docs",Positivo
+t3_1ivlrys,Python,t3,Pykomodo – A Parallel Code Chunker,1,"**What My Project Does**  
+pykomodo is a Python-based tool that parallelizes code chunking for large codebases. It supports both traditional line-based splitting and an **AST-based “semantic”** approach for `.py` files—so top-level functions and classes don’t get split across multiple chunks. When i made pykomodo a while back, this feature was still in the works. 
+
+**What Problem Does It Solve?**  
+When dealing with huge repositories (especially if you’re feeding them into large language models or other analysis), it’s helpful to chunk the files into more manageable pieces.
+
+**Comparison With Other Available Chunkers**
+
+* **repomix**: Another open-source code chunker that focuses on certain features
+
+**GitHub and PyPI**
+
+* **GitHub**: [https://github.com/duriantaco/pykomodo](#) 
+* **PyPI**: [https://pypi.org/project/pykomodo/](https://pypi.org/project/pykomodo/)
+
+Install with:
+
+`pip install pykomodo==0.0.4`
+
+  
+**Target Audience**
+
+* Python developers who need to chunk large codebases for LLM input, archiving .. etc
+* Projects that want to preserve function/class blocks within Python files.
+
+**Additional Highlights**
+
+* **Semantic (AST-based) chunking** for `.py` files (at least for now): big single functions remain un-split.
+* **Dry-run** mode: see which files would be chunked
+* **Ignore/unignore** patterns: skip entire folders like `**/node_modules/**` or re-include specific files.
+* **Threaded chunking**: speeds up scanning and file reading for large repos.
+* **Enhanced chunker** (optional) can remove redundancy or calculate relevance scores for LLM usage.
+
+Feel free to check it out, experiment, and send feedback or pull requests! Please give me a star if you find it useful, and if you want to colab, do drop me a message here. Thanks for taking the time to read! ",Positivo
+t3_1iume26,Python,t3,Appreciation post for PyCharm,285,"I spent the entire day today working on some complex ETL. So many hours spent building, testing, fine-tuning. Once I got it working I was updating the built in sphinx documentation, running the ‘make html’ command several times in the terminal. Turns out I had at one point in this active terminal, done a ‘git reset —hard’ command. While pressing up to cycle through commands, I accidentally ran git reset hard. All my work for the entire day was GONE. I have f’d up at work before, but never this bad. I was mortified.
+
+I had a moment of panic, and then asked chatGPT if there was any way to recover. The git log options it gave did not work. I then asked if PyCharm had any solutions for this. THERE IS A LOCAL HISTORY FEATURE THAT SAVED ME. It saves your changes and I was able to recover it all. Thank you to JetBrains for this amazing product. Four years with this product and I’m still learning about amazing features like this. ",Positivo
+t3_1iuy6kg,Python,t3,"Hello, I made a small webapp with Streamlit, FastAPI and docker to convert my images to PDFs",22,"Hi! 
+
+I started my self-hosted journey a couple of days ago, and this is my first webapp in a docker container.   
+It converts images to PDFs and merge PDFs together based on existing libraries. 
+
+It taught me how to use FastApi with streamlit, and how to make them speak to each other with docker. I hope it can help you too! ;)
+
+[https://github.com/LittleYellowPanda/MakeItPrivate.git](https://github.com/LittleYellowPanda/MakeItPrivate.git)
+
+If you have any questions, or advice, feel free to comment! 
+
+",Positivo
+t3_1iura9d,Python,t3,🔴 redpoint - Python library for converting climbing grades between different grading systems,21,"GitHub: [https://github.com/ciszko/redpoint](https://github.com/ciszko/redpoint)
+
+**What my project does**
+
+In rock climbing, various climbing styles (sport, boulder, ice) have their own grading systems. What's more, some systems were initially developed in confined geographical areas, climbing areas, countries or continents. `🔴 redpoint` is a Python library that simplifies climbing grade conversions. It supports a wide range of climbing grade systems (sport, bouldering, and other) from [thecrag.com](http://thecrag.com), allowing users to easily convert between systems (e.g., Yosemitee Decimal System to French), compare the difficulty of grades, and even generate ranges of equivalent grades.
+
+The features include:
+
+* Converting the grades between the systems
+* Comparing the difficulty of grades (even between the systems)
+* Converting a grade into a range of grades from the different system
+* Iterating over grades from specific systems
+* Finding X harder or lower grade
+
+I've always wanted to combine programming and climbing. I didn't find any Python library that would cover that many grading systems so I decided to give it a go. Besides that, I had the opportunity to upload my library to pypi which was a new experience.
+
+**Target Audience**  
+(mostly rock climbers)  
+I find it hard to to compare the grades in my head, especially when I've never been to a specific climbing area that uses a different system. Thus I think that people that are having similar issues could use this project. It could be a learning mechanism for memorizing the new systems (it was for me when I was testing it :P)",Positivo
+t3_1iurwd3,Python,t3,NEW! Time travel debugger for python,20,"Hello everybody,
+
+Recently I have been working on a time travel debugger for python that has VS code integration out of the box. I plan on posting a few demos here before production, and would appreciate any constructive criticism on it.
+
+The main features include:
+
+* Take a full trace of the program by vscode
+* Control trace position using timline
+* Taint analysis - track variable value history
+
+  
+I was also wondering whether you have some suggestions for features for the product. Also, if you need early access to it, please do let me know and I'll see what I can do, mention your use case and what were you trying to achieve with the product.
+
+I will appreciate any suggestions!",Positivo
+t3_1iuyk4q,Python,t3,ParScrape v0.6.0 Released,5,"# What My project Does:
+
+Scrapes data from sites and uses AI to extract structured data from it.
+
+# Whats New:
+
+* Version 0.6.0
+   * Fixed bug where images were being striped from markdown output
+   * Now uses par\_ai\_core for url fetching and markdown conversion
+   * New Features:
+      * BREAKING CHANGES:
+      * BEHAVIOR CHANGES:
+      * Basic site crawling
+      * Retry failed fetches
+      * HTTP authentication
+      * Proxy settings
+   * Updated system prompt for better results
+
+# Key Features:
+
+* Uses Playwright / Selenium to bypass most simple bot checks.
+* Uses AI to extract data from a page and save it various formats such as CSV, XLSX, JSON, Markdown.
+* Can be used to crawl and extract clean markdown without AI
+* Has rich console output to display data right in your terminal.
+
+# GitHub and PyPI
+
+* PAR Scrape is under active development and getting new features all the time.
+* Check out the project on GitHub or for full documentation, installation instructions, and to contribute: [https://github.com/paulrobello/par\_scrape](https://github.com/paulrobello/par_scrape)
+* PyPI [https://pypi.org/project/par\_scrape/](https://pypi.org/project/par_scrape/)
+
+# Comparison:
+
+I have seem many command line and web applications for scraping but none that are as simple, flexible and fast as ParScrape
+
+# Target Audience
+
+AI enthusiasts and data hungry hobbyist",Positivo
+t3_1iuta8b,Python,t3,FrameSVG: Convert animated GIFs to animated SVGs,7,"FrameSVG a CLI tool, Python library, and web app that converts animated GIFs into animated SVGs. It's been useful for me, so it might be useful to you too. I initially created it because GIFs in GitHub READMEs don't play automatically for many people, and I wanted to make a good first impression. It actually started as a C++ project, but I rewrote it in Python for easier use and distribution.
+
+# What My Project Does
+
+It uses [VTracer](https://www.visioncortex.org/vtracer/) to convert each frame of a GIF into vector graphics. It then combines these frames into a single SVG file, using SVG animations (`&lt;animate&gt;`) to create a smooth, scalable animation that plays automatically in browsers, GitHub READMEs, and many other places that support SVGs. This is *not* the same as simply embedding the original GIF within an `&lt;image&gt;` tag inside an SVG. This produces *actual* vector output.
+
+# Target Audience
+
+It can be useful to a range of users:
+
+*   **Documentation/README Authors/Open Source Developers:** I originally created FrameSVG because GIFs in GitHub READMEs don't always autoplay, and I wanted a reliable way to show animated content.
+*   **Web Developers/Designers:** If you need small, scalable animations for websites (e.g., loading indicators, animated icons, simple illustrations) from a GIF you like, then this is it! FrameSVG can often produce smaller files than GIFs, *especially* for graphics with solid colors or simple shapes. It offers the benefit of network compression (Gzip/Brotli), which means that even if the raw SVG is larger than the GIF, it will often load faster.
+*   **Anyone who wants to experiment with vectorizing GIFs:** It's a fun way to create stylized versions of existing GIFs, and you can tweak the VTracer settings for different artistic effects.
+*   **Video Designers:** It is fit for making very stylistic videos and has a bunch of settings to tweak.
+
+# Comparison
+
+I searched long and hard for something like this, and the best I found was [freeconvert.com/gif-to-svg](https://www.freeconvert.com/gif-to-svg). It also used VTracer and will convert the GIF into multiple SVGs in a zip but you have to manually create a program to stitch them together into an animated SVG. The worst part is that the order of the SVGs it gives you is wrong, so in the end, it is not even correct. This frustration was what led me to create FrameSVG.
+
+# Key Features and Benefits:
+
+*   **True Vector Output:** Unlike simply embedding a GIF within an SVG, `framesvg` creates a true vector animation. This means:
+    *   **Scalability:** The SVG can be resized to any dimensions without losing quality.
+    *   **Smaller File Size (Potentially):** For many GIFs, the resulting SVG will be smaller, especially for graphics with large areas of solid color or simple shapes. Complex, photographic GIFs may be larger, however.
+*   **Automatic Playback:** The generated SVGs are designed to play automatically in any environment that supports SVG animations (web browsers, GitHub, many image viewers, etc.).
+*   **Easy to Use:** Simple web app, command-line interface, and a clean Python API.
+*   **Customizable:** Control the frame rate and fine-tune the VTracer conversion process for optimal results.
+*   **Network Compression:** This could have a smaller raw file size from simple GIFs, but SVGs are text-based and highly compressible, so it nearly always results in a smaller network transfer size, even for complex GIFs, because SVGs, unlike GIFs (which are already compressed by LZW), support network compression. So, on top of potentially being smaller than the GIF, it can be compressed even further. To see examples and compare the file size differences (GIF size, raw size, and network transfer size), check out the [example page](https://framesvg.romelium.cc/examples.html). (It uses client-side code to get the sizes.)
+
+You can try it out right now on the web app: [framesvg.romelium.cc](https://framesvg.romelium.cc) (The web app can only handle inputs and outputs less than 4.5MB; if you want larger input and output, use the CLI or Python library.)
+
+To install the command-line tool and Python library:
+
+```commandline
+pip install framesvg  # Or use pipx for just CLI installation
+```
+
+See the [GitHub README](https://github.com/Romelium/FrameSVG) for detailed usage instructions, and API documentation. ",Positivo
+t3_1iuq0fy,Python,t3,(Updates) A search engine for all your memes - written in Python.,5,"The app is open source 👉 https://github.com/neonwatty/meme-search 👈 
+
+# What My Project Does
+
+The open source engine indexes your memes by their visual content and text, making them easily searchable. Drag and drop recovered memes into any messager.
+
+Thanks to community feedback, we're excited to release a major update, featuring quality-of-life improvements, new image-to-text models, UX enhancements, and local build/test upgrades!   
+
+These updatesinclude:
+
+- 4 new [image to text new models](https://github.com/neonwatty/meme-search?tab=readme-ov-file#features---pro-version)  ranging in size from 200M to 2B parameters enabling much faster local processing on most machines
+- 10x reduction in Docker image size for app services
+- Easier custom setup of the for local NAS, Portainer, Unraid, etc., 
+use with newly enabled [customize hosts names and ports](https://github.com/neonwatty/meme-search/tree/main?tab=readme-ov-file#custom-hosts-and-ports) 
+- new model selection panel added in Settings allowing for choice of image-to-text model at will
+- new `grid view` added to both home and search pages for a broader view of your memes
+
+# Target Audience
+
+This is a side project. Open source and made for fun.
+
+# Comparison
+
+* immich: great open source image organizer
+* other local photo apps: some allow for indexing but not quite at the level of a vlm yet",Positivo
+t3_1itzac1,Python,t3,What the hell is going on with type hinting these days,393,"When I first learned python back in versions 3.6 and 3.7 I regarded type hinting as a purely styling feature.  It was well rooted in my mind that python code with or without type hinting will run the same and it is used only for readability -- basically just us developers being kind to each other.
+
+Nowadays more and more packages are using type hinting for core functions. SQLAlchemy is using it to declare SQL column types (Mapped), FastAPI + Pydantic is using it for HTTP payloads and auto-documentation, and dataclasses uses it to construct (shockingly) data classes.
+
+Don't get me wrong, I'm supportive of type hinting\\annotations. I'm also well aware that all of these packages will execute just fine without it. But maybe it's fair to say that in modern python applications type hinting is a core feature and not just for styling and garnishing.
+
+Edit: I actually find type annotations very useful, I'm not against it. I wanted to discuss whether it's really ""optional"" due to its widespread integration in libraries. I like u/all4Nature point: I'm thinking on it from a software engineer prespective, data analysts will probably disagree that type hinting is as widespread as I thought.",Neutro
+t3_1iv1q3p,Python,t3,Would you expect a web framework parse all errors or stop at the first one,1,"Webframework like fastapi will parse as many errors as possible before returning to client, this is really a double edge sword, although it help a lot when it comes to client-side debugging, when requests with many errors hit the server, RPS will drop significantly. So what would you expect a web framework to do in situations like this? ",Neutro
+t3_1iudwva,Python,t3,In 2025 will there be a viable freelance market for Python developers other than Fiver or UpWork,33,"Posted this question a few weeks ago but I guess it was on the wrong day.  Since it free text Friday I will try again.
+
+Are companies looking for freelance Python developers for hourly or statement of work, fixed price scripting work from places other than Upwork or Fiver or similar sites?",Neutro
+t3_1iun2qh,Python,t3,Python arp scanner,7,"Phanton is a Python project I have been working on for a while, sort of a research little thingy to understand deeper the ARP protocol and go beyond just using other people tools. Reinventing the wheel? not really just trying to understand what I have running in my local network. So far I have only got some PoC small thing that provides some useful data in order to have a 'clear' picture of what devices and present around where I connect. Work in progress is to understand and report the traffic that these devices are producing. It runs on Maos and Linux so far, for the first I added a C extension that does sequential scanning (slow but pretty accurate). I'd love to have feedbacks and improvement propasa! Very opened to contributions! Happy coding :)
+
+[https://github.com/CyberRoute/phantom/](https://github.com/CyberRoute/phantom/)",Positivo
+t3_1itu5mn,Python,t3,"Happy Birthday, Python! 🎉🐍",362,"Guido van Rossum began working on Python language in the late 1980s as a successor to the ABC programming language. The first version, Python 0.9.0, was released on this day, February 20, 1991. ",Neutro
+t3_1iuf3yp,Python,t3,PAR Infinite Minesweeper TUI v0.2.10 released,14,"# What My project Does:
+
+Play a game of minesweeper with infinite board size in your terminal!
+
+# Whats New:
+
+# v0.2.10
+
+* Update package metadata
+
+# v0.2.9
+
+* Initial Release
+
+# Key Features:
+
+* Infinite board size
+* Local high scores
+* Auto saves and can be resumed
+
+# GitHub and PyPI
+
+* Check out the project on GitHub or for full documentation, installation instructions, and to contribute: [https://github.com/paulrobello/par\_infini\_sweeper](https://github.com/paulrobello/par_infini_sweeper)
+* PyPI [https://pypi.org/project/par\_infini\_sweeper/](https://pypi.org/project/par_infini_sweeper/)
+
+# Comparison:
+
+While there are a few minesweeper TUIs out there I have not found any infinite board versions.
+
+# Target Audience
+
+Anybody that loves minesweeper and terminals",Neutro
+t3_1iuimuc,Python,t3,Any collaborative online IDEs for class,5,"Are there any free or fairly priced collaborative online IDEs? I'm teaching Python in high school and we're getting capped on the amount of printouts we can make so I need some place where the students can view the code and make their own either on a different IDE or online in the same IDE that I used. I prefer free if possible as the school is hamfisted with their budget but if it's moderately priced then maybe I can convince them to allocate some funds.
+
+Replit was a choice but before the last semester was about to start Replit greatly limited the free version to where it wasn't useable for my students or class. I'm not sure of its limitations now if they changed their policy. 
+
+I usually have students use online-python.com to practice but sharing the code has become a hurdle as some of the students only have tablets instead of laptops and it doesn't have a collaborative option.
+
+Any suggestions would be welcomed.",Neutro
+t3_1itzsnz,Python,t3,My Ever-Expanding Python &amp; Django Notes,52,"Hey everyone! 👋
+
+I wanted to share a project I've been working on: [**Code-Memo**](https://mouhamaddev.github.io/Code-Memo/) – a personal collection of coding notes. This is NOT a structured learning resource or a tutorial site but more of a **living reference** where I document everything I know (and continue to learn) about Python, Django, Linux, AWS, and more.
+
+Some pages:  
+📌 [**Python Notes**](http://mouhamaddev.github.io/Code-Memo/python.html)  
+📌 [**Django Notes**](http://mouhamaddev.github.io/Code-Memo/django.html)
+
+The goal is simple: **collect knowledge, organize it, and keep expanding.** It will never be ""finished"" because I’m always adding new things as I go. If you're a Python/Django developer, you might find something useful in there—or even better, you might have suggestions for things to add!
+
+Would love to hear your thoughts.",Positivo
+t3_1iu95zq,Python,t3,thoughts on hatch?,12,hey everyone! saw a post here yesterday extolling uv as the best all in one tool for basically everything python.. having familiarised myself with it I came across [hatch](hatch.pypa.io/latest). is anyone familiar with it? can either of these replace Makefiles?,Neutro
+t3_1iu4nzo,Python,t3,Currency classes for Python,20,"# [Monepy](https://github.com/vsbits/monepy)
+
+A python package that implements currency classes to work with monetary values.
+
+# Target audience
+
+I created it mostly for some data analysis tasks I usually do, and also as way to learn about project structure, documentation, github actions and how to publish packages.
+
+I wouldn't know if it's production ready.
+
+# Comparison
+
+After starting it I found about [py-moneyed](https://github.com/py-moneyed/py-moneyed). They are quite similar, but I wanted something that looks ""cleaner"" when using it.
+
+Any feedback will be appreciated.",Neutro
+t3_1iudeoy,Python,t3,Friday Daily Thread: r/Python Meta and Free-Talk Fridays,3,"# Weekly Thread: Meta Discussions and Free Talk Friday 🎙️
+
+Welcome to Free Talk Friday on /r/Python! This is the place to discuss the r/Python community (meta discussions), Python news, projects, or anything else Python-related!
+
+## How it Works:
+
+1. **Open Mic**: Share your thoughts, questions, or anything you'd like related to Python or the community.
+2. **Community Pulse**: Discuss what you feel is working well or what could be improved in the /r/python community.
+3. **News &amp; Updates**: Keep up-to-date with the latest in Python and share any news you find interesting.
+
+## Guidelines:
+
+* All topics should be related to Python or the /r/python community.
+* Be respectful and follow Reddit's [Code of Conduct](https://www.redditinc.com/policies/content-policy).
+
+## Example Topics:
+
+1. **New Python Release**: What do you think about the new features in Python 3.11?
+2. **Community Events**: Any Python meetups or webinars coming up?
+3. **Learning Resources**: Found a great Python tutorial? Share it here!
+4. **Job Market**: How has Python impacted your career?
+5. **Hot Takes**: Got a controversial Python opinion? Let's hear it!
+6. **Community Ideas**: Something you'd like to see us do? tell us.
+
+Let's keep the conversation going. Happy discussing! 🌟",Positivo
+t3_1iuizhk,Python,t3,Enforcing Access Control in AI Agents with PydanticAI,2,"AI agents are increasingly integrated into applications, but implementing access control remains a challenge. Unlike traditional applications, AI systems require security measures that go beyond user authentication. They need safeguards at multiple levels—controlling inputs, restricting access to sensitive data, securing external system interactions, and validating responses before they reach users.
+
+**PydanticAI** provides a structured way to enforce these controls by integrating validation and security into the AI agent’s workflow. It allows developers to:
+
+* **Filter inputs** before they reach the AI model, ensuring only authorized prompts are processed.
+* **Restrict access** to sensitive data based on user permissions.
+* **Control external interactions,** limiting which APIs and third-party systems the AI can access.
+* **Validate responses** before they are delivered to users, ensuring compliance and preventing data leaks.
+
+This approach integrates access control directly into the AI agent’s logic, reducing the need for ad-hoc security measures. The article explores how PydanticAI supports this structured validation and demonstrates its implementation using a **Four-Perimeter Framework** for securing AI deployments: [https://www.permit.io/blog/ai-agents-access-control-with-pydantic-ai](https://www.permit.io/blog/ai-agents-access-control-with-pydantic-ai)",Neutro
