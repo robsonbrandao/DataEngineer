@@ -12,7 +12,7 @@ load_dotenv()  # Carregando variáveis de ambiente de um arquivo .env
 
 
 # Variaveis Reddit
-SUBREDDIT = "funny"
+SUBREDDIT = "python"
 client_id = os.environ.get("REDDIT_CLIENT_ID")
 client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
 user_agent = os.environ.get("REDDIT_USER_AGENT")
@@ -154,5 +154,3 @@ object_name = CSV_PATH
 
 s3.upload_file(CSV_PATH, bucket_name, f"subreddits/{object_name}")
 print("Concluído!")
-
-
